@@ -65,7 +65,7 @@ mod timeout;
 ///     }
 /// }
 /// ```
-pub use interval::{interval, interval_at, Interval};
+pub use interval::{interval, interval_at, Interval, MissedTickBehavior};
 pub use sleep::{sleep, sleep_until, Sleep};
 pub use time::{Instant, SystemTime, UNIX_EPOCH};
 pub use timeout::{timeout, timeout_at, Timeout};
